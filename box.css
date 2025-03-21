@@ -1,0 +1,17 @@
+/* .parent{  
+
+    display: flex; 
+    justify-content: space-between; 
+    background-color: rgb(87, 87, 255);
+} */  
+
+.wrapper{ 
+    background-color: antiquewhite; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center ; 
+    
+}  
+.ch2{ 
+    color: tomato;
+}

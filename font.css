@@ -1,0 +1,41 @@
+/* h1{ 
+    font-family: "Winky Sans", sans-serif; 
+    color: aqua;
+} 
+h2{ 
+    font-family: "Dancing Script", cursive; 
+    font-size: 30px;
+    
+}  
+.container{ 
+    background-color: rgb(19, 74, 88); 
+    margin-top: 200px; 
+    height: 200px;
+
+    
+} 
+.cl { 
+    background-color: rgb(145, 255, 0);
+    height: 100px; 
+    width: 100px; 
+    position: relative;
+    top: 40px;
+    left: 30px;
+
+} */  
+
+.navbar{ 
+    background-color: aqua;
+    display:flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    position: sticky;
+    top: 0px;  
+
+}  
+.navbar ul{
+    display: flex;
+    list-style: none; 
+    gap: 40px;
+}  
+

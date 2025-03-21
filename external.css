@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    color: rgb(12, 11, 0);
+    text-decoration: underline;
+    background-color: rgb(92, 236, 246);
+    text-decoration-color: rgba(228, 253, 2, 0.978);
+    text-decoration-style: dotted double;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}  
+.main{ 
+    text-shadow: 3px 4px 5px greenyellow;
+}
+
+p {
+    word-spacing: 10px; 
+    letter-spacing: 5px; 
+     line-height: 40px; 
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    text-shadow: 3px 4px 5px lightgreen;
+} 
+
+.container{ 
+    background-color: rgb(112, 231, 124);  
+    padding: 30px;
+ padding-left: 30px;
+    padding-right: 30px; 
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    margin-bottom: 20px; 
+
+    border-bottom:  13px solid blueviolet ;
+    border-radius: 20px;
+}  
+
+.container1{ 
+    background-color: lightseagreen;
+    padding: 20px; 
+    border: 13px dashed black; 
+    border-radius: 20px;
+} 

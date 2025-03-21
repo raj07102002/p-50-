@@ -1,0 +1,19 @@
+.card{
+     
+     width: 300px;
+     padding: 10px;
+   border: 2px double;
+    text-align: center;
+    
+    } 
+    button:hover.button{ 
+       /* display: inline;
+        background-color: #4c5a3d;
+        color: rgb(252, 247, 247);
+        padding: 10px 20px; 
+     border-radius: 20px; 
+     height: max-content; */
+display: block;
+filter: drop-shadow(0 0 10px #fffdef);
+            
+    }

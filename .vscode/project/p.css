@@ -1,0 +1,57 @@
+#bgVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+  
+  
+*{ 
+   margin: 0%; 
+   padding: 0%;
+background-image: url(../agri.jpg);  
+background-position: center;
+font-family: Arial, sans-serif; 
+/* background-image:  url(drone.mp4); */
+}
+
+
+
+
+.p{ 
+    position: sticky;
+    z-index: 1;
+    background: rgba(0, 128, 0, 0.7) transparent; 
+    /* color: white; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+    
+
+} 
+.p ul{  
+    display: flex; 
+    justify-content: space-evenly;
+    list-style: none;  
+    gap: 20px; 
+    
+
+}   
+.p ul li{ 
+    padding: 10px 15px; 
+    background: white transparent;
+border-radius: 5px;
+} 
+#click{ 
+    display: none;
+}
+
+#click:checked~.p ul{ 
+    display: block;
+}
